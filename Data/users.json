@@ -11,7 +11,7 @@
         "username": "Jane Doe",
         "email": "manager@gmail.com",
         "password": "$2y$10$4scUN0jTXKp914xXu\/vsqui6r\/txLSxzlPISy6A3eGWJvHSBa6dV.",
-        "role": "user"
+        "role": "manager"
     },
     {
         "id": 3,
