@@ -1,30 +1,23 @@
 [
     {
         "id": 1,
-        "username": "johndoe",
-        "email": "john@doe.com",
-        "password": "$2y$10$JwrI21PaD6RaIrQEZXG6DeTn7kIZ74HY9IlxauXNsEhrWEJqNb5vS",
+        "username": "John Doe",
+        "email": "user@gmail.com",
+        "password": "$2y$10$\/H6BUb4IgSzX87hmFY7nFuesSBVNBRDKLTTn9DsZC0NhKQ564VeF.",
         "role": "user"
     },
     {
         "id": 2,
-        "username": "markwood",
-        "email": "mark@wood.com",
-        "password": "$2y$10$ROj2QReQBNzjV\/juTT24A.vaS0TrWjhGyD2j4KrNWO\/\/j.UvpBJjC",
-        "role": "manager"
+        "username": "Jane Doe",
+        "email": "manager@gmail.com",
+        "password": "$2y$10$4scUN0jTXKp914xXu\/vsqui6r\/txLSxzlPISy6A3eGWJvHSBa6dV.",
+        "role": "user"
     },
     {
         "id": 3,
-        "username": "lorem ipsum",
-        "email": "lorem@ipsum.com",
-        "password": "$2y$10$O8JQVKWx62n87m9D57AMTODkdR8Rc4cWibHn8Ae\/471x3pqw60If6",
-        "role": "admin"
-    },
-    {
-        "id": 4,
-        "username": "sakib",
-        "email": "hasan@sakib.com",
-        "password": "$2y$10$\/PdpzFBpMQ2zvoIsdbkYR.oyatzDvc8dCflu\/P4gNmacSiiq1\/FLm",
+        "username": "Mark Wood",
+        "email": "mark@wood.com",
+        "password": "$2y$10$QLS4VsalpCAgKk4RAIaex.70TQ4fVy60czH.bAIhstt\/3pE1DhDca",
         "role": "user"
     }
 ]
