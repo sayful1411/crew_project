@@ -12,10 +12,17 @@ $username = $_POST['username'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 
+if ( empty( $username ) || empty( $email ) || empty( $password ) ) {
+    $_SESSION['error'] = "Please fill  all the fields.";
+    header("Location: register.php");
+    exit();
+}
+
 // check that the password has a minimum length of at least 6 characters
 if(strlen($password) < 6){
     $_SESSION['error'] = "Password must be grater than 6 character";
     header("Location: register.php");
+    exit();
 }
 
 // Read the existing JSON data from the file
